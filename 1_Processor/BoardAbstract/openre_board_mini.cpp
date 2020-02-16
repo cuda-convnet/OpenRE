@@ -55,7 +55,7 @@ Board::Board() : BoardAbstract()
     else if(PC_INTERFACE == 3){
         device_type[USART_PC] = 0x30;
     }
-    if(PC_INTERFACE == 4){
+    else if(PC_INTERFACE == 4){
         device_type[USART_PC] = 0x40;
     }
     else if(PC_INTERFACE == 5){

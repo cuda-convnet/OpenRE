@@ -23,7 +23,7 @@ extern "C" {
 
 void USART1_IRQHandler(void)
 {
-    unsigned char data =0;
+    unsigned char data = 0;
 #if SYSTEM_SUPPORT_OS == 1
     OSIntEnter();
 #endif
